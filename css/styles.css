@@ -3,7 +3,7 @@ body{
     margin: 0;
 }
 h1{
-    font-family: 'Goblin One', sans-serif;
+    font-family: 'Anton', sans-serif;
 }
 .nav-bar {
     background-color: black;
@@ -15,7 +15,10 @@ h1{
     top: 1rem;
     color: #fff;
     padding: 2rem;
-    font-family: 'Pangolin', sans-serif;
+    font-family: 'Lobster', cursive;
+}
+p{
+    font-family: 'Merriweather Sans', sans-serif;
 }
 .nav-a  {
     position: relative;
@@ -63,7 +66,10 @@ h1{
     border-style: solid;
 }
 .yoga-p {
-    margin: auto 10%;
+    margin: 2% 10%;
+}
+.type-yoga{
+    margin: 2% auto;
 }
 
 /* ------------- imgs --------------- */
@@ -142,8 +148,10 @@ button{
         margin: 5%;
     }
     button{margin: 5% auto;}
+    
     .inp-txt{ padding: 0.5rem 0;
     margin: 2%;}
+    
     .logo-img{position: inherit;}
 
     .nav-a{position: static;

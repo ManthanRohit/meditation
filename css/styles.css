@@ -1,0 +1,153 @@
+body{
+    text-align: center;
+    margin: 0;
+}
+h1{
+    font-family: 'Goblin One', sans-serif;
+}
+.nav-bar {
+    background-color: black;
+    
+}
+.logo-img {
+    position: relative;
+    right: 35rem;
+    top: 1rem;
+    color: #fff;
+    padding: 2rem;
+    font-family: 'Pangolin', sans-serif;
+}
+.nav-a  {
+    position: relative;
+    left: 35%;
+    display: inline;
+    bottom: 3.5rem;
+}
+.nav-link{
+    margin: 10px;
+    color: #fff;
+    text-decoration: none;
+    
+}
+#header-sec {
+    margin-top: 0%;
+}
+/* ------------------------ anime--------------------------- */
+#anime{
+    display: flex;
+    background-color: #72147e;
+    /* height: 25rem; */
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10%;
+}
+.welcome-note{
+    color: #fff;
+}
+.ig1 {
+    width: 15rem;
+}
+/* ----------------grid box--------------------- */
+#type{
+    padding: 3%;
+}
+#grid-box {
+    display: flex;
+    justify-content: space-evenly;
+}
+.yoga-img {
+    width: 11rem;
+    height: 11rem;
+    border: #72147e;
+    border-radius: 50%;
+    border-style: solid;
+}
+.yoga-p {
+    margin: auto 10%;
+}
+
+/* ------------- imgs --------------- */
+#gallary{
+    padding: 3%;
+}
+.medimg1{
+    width: 20rem;
+}
+/* ------------ price------------ */
+#pricing{
+    background-color: #72147e;
+    color: #fff;
+    padding: 3%;
+}
+.price-flex {
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.price {
+    background-color: #ff5200;
+    border: solid;
+    border-color: black;
+}
+.price-p {
+    margin: auto 10%;
+}
+/* ---------------- footer------------- */
+#form-fill {
+    background-color: #72147e;
+    color: #fff;
+    padding: 3%;
+}
+.footer {
+    margin: 3% auto;
+}
+.flink {
+    color: #fff;
+    text-decoration: none;
+    margin: 2%;
+    
+}
+.btn1{
+    background-color: #000;
+    color: #fff;
+    border: 0;
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+.inp-txt {
+    font-size: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+button{
+    background-color: #000;
+    color: #fff;
+    border: 0ch;
+    padding: 2% 5%;
+    margin: 2% auto;
+}
+/* -------------------------media-------------- */
+@media (max-width: 800px) {
+    #anime{
+        flex-direction: column;
+    }   
+    #grid-box {
+        flex-direction: column;
+    }
+    .price-flex{
+        flex-direction: column;
+        margin: 10% 15%;
+    }
+    .price {
+        margin: 5%;
+    }
+    button{margin: 5% auto;}
+    .inp-txt{ padding: 0.5rem 0;
+    margin: 2%;}
+    .logo-img{position: inherit;}
+
+    .nav-a{position: static;
+    /* left: inherit */
+    margin: 0 auto 5%;
+    }
+}
